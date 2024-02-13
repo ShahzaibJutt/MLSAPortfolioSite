@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/lamp.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "lamp with blue background";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "10 Things To Know About Flask for Web Development 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Collaboration to create a beginner-friendly article to help explain Flask, a micro web framework for Python, and tooling to get started with web applications.",
+    url: "https://flask.palletsprojects.com/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Python Programming for Beginners",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Contributed to creating interactive Python notebooks to accompany each lesson. These help provide a hands-on experience of Python basics, data structures, and algorithms.",
+    url: "https://github.com/microsoft/Python-Programming-For-Beginners",
   },
   {
-    title: "My Resume Site",
+    title: "My Data Science Portfolio Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created from a Python data science workshop and deployed to Heroku. Includes my analysis projects, machine learning models, and data visualization skills.",
+    url: "https://github.com/datasciencemasters/go",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Jupyter Notebooks and Google Colab",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Video tutorial to explain when to use Jupyter Notebooks versus Google Colab, and how best to use each tool for Python programming, data analysis, and machine learning projects.",
+    url: "https://www.youtube.com/watch?v=inN8seMm7UI",
   },
 ];
 
